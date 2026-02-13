@@ -74,6 +74,36 @@ nav a:hover {
     color: var(--primary);
 }
 
+.cv-button {
+    background: linear-gradient(135deg, var(--primary), var(--secondary)) !important;
+    color: #081019 !important;
+    padding: 0.6rem 1.2rem !important;
+    border-radius: 50px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s !important;
+}
+
+.cv-button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.3) !important;
+}
+
+.cv-download-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: #081019;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.cv-download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.3);
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
@@ -280,7 +310,9 @@ h2::after {
 }
 
 .project-card:hover {
+    border-color: var(--primary);
     transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(56, 189, 248, 0.18);
 }
 
 .project-image {
