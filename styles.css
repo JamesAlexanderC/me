@@ -74,7 +74,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(118, 75, 162, 0.85) 100%), url('me.jpeg') center/cover no-repeat;
+    background: url('me.jpeg');
     position: relative;
     overflow: hidden;
 }
