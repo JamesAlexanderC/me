@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Plus+Jakarta+Sans:wght@200..800&amp;family=Lexend:wght@100..900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed": "#d1e4ff",
+              "primary": "#000000",
+              "primary-container": "#101b30",
+              "outline-variant": "#c4c6cc",
+              "surface-bright": "#f9f9ff",
+              "on-primary": "#ffffff",
+              "inverse-surface": "#263046",
+              "surface-dim": "#cfdaf6",
+              "on-surface-variant": "#44474c",
+              "on-primary-fixed-variant": "#3c475d",
+              "on-secondary-fixed": "#001d36",
+              "error-container": "#ffdad6",
+              "surface-container": "#e8edff",
+              "tertiary-fixed": "#e2e3df",
+              "on-tertiary-fixed-variant": "#454745",
+              "on-tertiary-container": "#828481",
+              "on-error-container": "#93000a",
+              "tertiary-fixed-dim": "#c6c7c3",
+              "primary-fixed-dim": "#bbc6e2",
+              "on-background": "#101b30",
+              "surface": "#f9f9ff",
+              "outline": "#74777d",
+              "background": "#f9f9ff",
+              "tertiary": "#000000",
+              "on-error": "#ffffff",
+              "surface-tint": "#545e76",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary": "#ffffff",
+              "on-tertiary": "#ffffff",
+              "on-primary-fixed": "#101b30",
+              "primary-fixed": "#d7e2ff",
+              "secondary-fixed-dim": "#afc9ea",
+              "secondary-container": "#c2dcff",
+              "on-secondary-fixed-variant": "#2f4865",
+              "inverse-on-surface": "#edf0ff",
+              "secondary": "#47607e",
+              "on-primary-container": "#79849d",
+              "surface-container-high": "#e0e8ff",
+              "error": "#ba1a1a",
+              "surface-container-highest": "#d7e2ff",
+              "surface-variant": "#d7e2ff",
+              "inverse-primary": "#bbc6e2",
+              "on-surface": "#101b30",
+              "tertiary-container": "#1a1c1a",
+              "surface-container-low": "#f1f3ff",
+              "on-secondary-container": "#48617e",
+              "on-tertiary-fixed": "#1a1c1a"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Lexend"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-[#0D1B2A]/80 backdrop-blur-xl bg-gradient-to-b from-slate-200/20 to-transparent dark:from-white/5">
+<div class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+<span class="text-2xl font-black tracking-tighter text-[#0D1B2A] dark:text-white font-['Manrope']">The Kinetic Scholar</span>
+<div class="hidden md:flex items-center gap-8 font-['Manrope'] tracking-tight font-bold">
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-[#0D1B2A] dark:hover:text-white transition-colors hover:scale-105 transition-transform duration-200" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-[#0D1B2A] dark:hover:text-white transition-colors hover:scale-105 transition-transform duration-200" href="#">Professional</a>
+<a class="text-[#0D1B2A] dark:text-white border-b-2 border-[#0D1B2A] dark:border-blue-400 pb-1 hover:scale-105 transition-transform duration-200" href="#">Hockey</a>
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-[#0D1B2A] dark:hover:text-white transition-colors hover:scale-105 transition-transform duration-200" href="#">Gallery</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded font-headline font-bold hover:scale-105 transition-transform active:scale-95 duration-150">
+                Contact
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-20">
+<!-- Hero Section: Kinetic Energy -->
+<section class="max-w-7xl mx-auto px-8 mb-28">
+<div class="relative overflow-hidden rounded-xl h-[716px] bg-primary-container group">
+<img alt="Action Shot" class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-luminosity group-hover:scale-105 transition-transform duration-700" data-alt="Dynamic action shot of a hockey player skating fast with ice shavings flying, captured in a cinematic high-contrast dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAMhnqKRB25jeGuRdSwVE0pQOg1bfTxGVnA1CbOAmaL_01gEOvTdJfH07nbni-12ImpcyzI8-UK92nqtx1NNSS8amaNYUioSQncRWoCwPxbi3NiCiMBvr16H4QIsfsN88Jid0hLwFbWI5fTLISQBErr90mE2VIfF9HvWaq0Fr5SwLZBiHc567uiAvU9yHX-RESSqadoYKRJUqIkB3lg_y1vD_GRot8jKEQLRf0yx5_8aGnzBp1zZvm1Z_lYh3aS-6xEiZw5uRubU0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-transparent to-transparent"></div>
+<div class="absolute bottom-12 left-12 max-w-2xl">
+<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container font-label text-xs tracking-widest uppercase mb-4">Elite Athlete Profile</span>
+<h1 class="text-white font-headline font-extrabold text-6xl md:text-8xl tracking-tighter leading-none mb-6">
+                        POWER ON <br/> <span class="text-secondary-fixed">THE ICE</span>
+</h1>
+<p class="text-primary-fixed-dim text-lg md:text-xl font-medium max-w-lg">
+                        Balancing clinical precision with explosive athleticism. A journey through competitive hockey and academic excellence.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Current Team: Bento Grid Layout -->
+<section class="max-w-7xl mx-auto px-8 mb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Headline Card -->
+<div class="md:col-span-4 flex flex-col justify-center">
+<h2 class="font-headline font-extrabold text-5xl text-on-surface mb-6 leading-tight">Current Team</h2>
+<p class="text-on-surface-variant font-body leading-relaxed mb-8">
+                        Currently competing at the collegiate level, where tactical intelligence meets high-speed execution.
+                    </p>
+<div class="flex items-center gap-4">
+<div class="h-[2px] w-12 bg-primary"></div>
+<span class="font-label text-sm uppercase tracking-widest font-bold">Season 2024-2025</span>
+</div>
+</div>
+<!-- Team Detail Card -->
+<div class="md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-surface-container-highest p-8 rounded-xl relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-10">
+<span class="material-symbols-outlined !text-9xl" data-icon="sports_hockey">sports_hockey</span>
+</div>
+<h3 class="font-headline font-bold text-2xl mb-2">Varsity Knights</h3>
+<p class="font-label text-secondary font-bold text-sm mb-6">NCAA Division I</p>
+<div class="space-y-4">
+<div class="flex justify-between items-center">
+<span class="font-body text-on-surface-variant">Position</span>
+<span class="font-label font-bold">Left Wing</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body text-on-surface-variant">Jersey</span>
+<span class="font-label font-bold">#24</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body text-on-surface-variant">Status</span>
+<span class="font-label font-bold text-error">Active</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/15 flex flex-col justify-center items-center text-center">
+<img alt="Team Logo placeholder" class="w-32 h-32 object-contain mb-6" data-alt="Abstract minimal geometric logo for a sports team using navy and silver colors on a white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9y05G2w0HfDOWryo8MPVG8k_BcDUTYrcivpqIbaJ-7qTTUy4odrPPcJex4vRK9CL7PPBznvO5TwMof9D3pBZlrgJDLprlWenzvn2NzeVz9PhiTjTwuV_Q4l_GOpHjXEcuK7vgamJuLjcIVrZ2S_g0L2coIUpxz64DFq_pZCZ109S7x5-9LqK6nf3yvm5_pFrCBrQ14Iz2gs336i8oOMhssLOy8MHoxMeLhYWbethsHj7TidJdNMpaScH_vJjIFSjdQe4Ha-xocbs"/>
+<span class="font-label text-xs uppercase tracking-tighter text-outline mb-1">Affiliation</span>
+<p class="font-headline font-extrabold text-xl">The Royal Athletic Institute</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section: The Kinetic Scroller -->
+<section class="bg-surface-container py-24 mb-32">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="font-headline font-extrabold text-4xl mb-2">Performance Analytics</h2>
+<p class="text-on-surface-variant font-body">The data behind the explosive energy.</p>
+</div>
+<div class="hidden md:flex gap-4">
+<span class="material-symbols-outlined p-2 bg-surface rounded-full cursor-pointer hover:bg-surface-dim transition-colors" data-icon="arrow_back">arrow_back</span>
+<span class="material-symbols-outlined p-2 bg-surface rounded-full cursor-pointer hover:bg-surface-dim transition-colors" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<div class="flex gap-6 overflow-x-auto hide-scrollbar pb-8">
+<!-- Stat Card 1 -->
+<div class="min-w-[280px] bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary">
+<span class="font-label text-xs text-secondary font-bold uppercase tracking-widest mb-4 block">Total Games</span>
+<div class="text-6xl font-headline font-black mb-2">42</div>
+<p class="text-on-surface-variant text-sm">Regular season + playoffs</p>
+</div>
+<!-- Stat Card 2 -->
+<div class="min-w-[280px] bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary">
+<span class="font-label text-xs text-secondary font-bold uppercase tracking-widest mb-4 block">Goals Scored</span>
+<div class="text-6xl font-headline font-black mb-2">18</div>
+<div class="flex items-center text-error font-bold text-sm">
+<span class="material-symbols-outlined text-sm mr-1" data-icon="trending_up">trending_up</span>
+                            +12% vs LY
+                        </div>
+</div>
+<!-- Stat Card 3 -->
+<div class="min-w-[280px] bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary">
+<span class="font-label text-xs text-secondary font-bold uppercase tracking-widest mb-4 block">Assists</span>
+<div class="text-6xl font-headline font-black mb-2">31</div>
+<p class="text-on-surface-variant text-sm">Primary playmaker role</p>
+</div>
+<!-- Stat Card 4 -->
+<div class="min-w-[280px] bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary">
+<span class="font-label text-xs text-secondary font-bold uppercase tracking-widest mb-4 block">PIM</span>
+<div class="text-6xl font-headline font-black mb-2">12</div>
+<p class="text-on-surface-variant text-sm">Disciplined defensive play</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Journey Section: Asymmetric Editorial -->
+<section class="max-w-7xl mx-auto px-8 mb-32">
+<div class="flex flex-col lg:flex-row gap-20">
+<div class="lg:w-1/2 relative">
+<div class="aspect-[4/5] overflow-hidden rounded-lg">
+<img alt="Ice Rink" class="w-full h-full object-cover" data-alt="Interior of a professional hockey arena with empty seats and perfectly smooth blue ice reflecting overhead stadium lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW3w3Y84iD0o82MJ9uPFrMCXSTmoFupc61jQO7Y2EgmsteWE8WTKz4J7fV60D9R1hFoSyMaT-EHhO8i7DiKtkfU4m06HJZUIeOsipCkpF8Yr3SGyVK3e-1pT-55HUvW86VnTqp98yns7xW3yCK6nGMnoJtpwoMjt_uP1gG2Raa7slcS2qF5h0OgfQe1B4d29yHieB27bz_DlpVFOGmWyZjyuBjGPo3Bfy0lWpRQDEcHlNuq3iz-dgIBxElcGkrA1VLKc-WgkZBQ64"/>
+</div>
+<div class="absolute -bottom-10 -right-10 w-64 aspect-square bg-surface-container-highest p-4 rounded-lg hidden lg:block">
+<img alt="Training" class="w-full h-full object-cover rounded-sm" data-alt="Close-up detail of hockey skate blades touching the ice with a shallow depth of field and cold blue lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe9FOC0yJAPBd6ZnVuprM9LQsTQLrks6t6zMchOhPsptnbH_WSmqmRfqsowOxpKiuwW5isIhRwetX_AnCOkrcE_DEu8KxI9_8lLeU-Xnjk3vv1ARlvSyUEAojCgOnsWaBNPvIKVv_50tYLt_qzDY9IgNpNx5CKpc9jETQkgEq-uvafPORwk2ZuNrwmblXP5Ooba3l4kqFf1sHrJLKvrQ2-_mtRlbYKW2731GKMj0IpOgwiKFT85_Zznl6TVwWCWabolODApxccRn0"/>
+</div>
+</div>
+<div class="lg:w-1/2 pt-12">
+<h2 class="font-headline font-extrabold text-5xl mb-8 tracking-tighter">About my <br/>hockey journey</h2>
+<div class="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
+<p>
+                            Starting at the age of five on frozen ponds in Ontario, the rink has always been my laboratory. For me, hockey is a game of angles, physics, and split-second cognitive processing.
+                        </p>
+<p>
+                            Transitioning through AAA minor hockey to the junior leagues, I learned that true leadership isn't just about scoring; it's about elevating the collective energy of the room. My journey is defined by the resilience required to balance 5:00 AM practices with advanced calculus and research projects.
+                        </p>
+<div class="pt-8 grid grid-cols-2 gap-8">
+<div>
+<h4 class="font-headline font-bold text-on-surface">15+ Years</h4>
+<p class="text-sm font-label text-outline uppercase tracking-wider">Competitive Experience</p>
+</div>
+<div>
+<h4 class="font-headline font-bold text-on-surface">3 Titles</h4>
+<p class="text-sm font-label text-outline uppercase tracking-wider">Regional Championships</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Action Gallery Section -->
+<section class="max-w-7xl mx-auto px-8 mb-32">
+<h2 class="font-headline font-extrabold text-4xl mb-12">Action Archive</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 relative h-96 rounded-xl overflow-hidden group">
+<img alt="Slap shot" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="High-speed photograph of a hockey player taking a powerful slap shot, with the stick flexed and puck launching into the air" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDR2R88bjNHTLz2ZzSob7_7VcQyY85BEnzUl4_N56oKMf5cqXiQjZw3JVFXJiODFfsbN4EkFl2TXWrtaa7SJ7KpfZsXP5UGcUYErlbkvT_DzbpkJCOoJ6ph1cFSXssZGzeYBF-qHszXS3M9sF83hJ5dh4wXmK2ecfYEjwLJD0o81XWqoU_OxniRTSqXw_40gqmDcGGZ1ihZYyLLitk5FInXxd_49qV_nJL9OQRIqsFGapYKJqP1SGWgzWKAgL-zfGEqoU01cuLFL5Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<span class="font-label text-white text-xs uppercase tracking-widest">Power Play Execution • State Finals</span>
+</div>
+</div>
+<div class="relative h-96 rounded-xl overflow-hidden group">
+<img alt="Huddle" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Group of hockey players in white and blue jerseys huddled together on the ice during a timeout with visible breath in the cold air" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPtc728VODlM6DBU5dypjqjRzeHdt7rGpdCYsaRCP5kUKJ9o1fCJ4gfA5rj9G1T2YaVolkL7N6WwDtssbreiHiG-RkGzWQ3tmh2blNLWx5MSxdvkpt8jg4610ctyjurbFdOntve129siKtIoiXWWlUXJcYHDlXMSE3gZaVEOeqeQXZryJ_rRp0oqmt56DB0n1U9QKg37pZoc8aVaLgJ9Lb1uM0TsK4s9ASeYslfMdrLPDw5AwHu0T7sfYXaJ61TJYx-tWVs2aCdGs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<span class="font-label text-white text-xs uppercase tracking-widest">Leadership in Focus</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-[#08121C] border-t border-slate-200/50 dark:border-white/5 w-full py-12 px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-['Lexend'] uppercase text-xs font-bold tracking-[0.2em] text-slate-400 mb-2">Kinetic Scholar</span>
+<p class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#0D1B2A] dark:text-slate-300">© 2024 Kinetic Scholar. Built with academic rigor and athletic energy.</p>
+</div>
+<div class="flex gap-8">
+<a class="text-slate-500 dark:text-slate-400 font-['Plus_Jakarta_Sans'] text-sm tracking-wide hover:text-blue-600 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="text-slate-500 dark:text-slate-400 font-['Plus_Jakarta_Sans'] text-sm tracking-wide hover:text-blue-600 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">GitHub</a>
+<a class="text-slate-500 dark:text-slate-400 font-['Plus_Jakarta_Sans'] text-sm tracking-wide hover:text-blue-600 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">EliteProspects</a>
+<a class="text-slate-500 dark:text-slate-400 font-['Plus_Jakarta_Sans'] text-sm tracking-wide hover:text-blue-600 dark:hover:text-blue-400 transition-colors opacity-80 hover:opacity-100" href="#">Instagram</a>
+</div>
+</div>
+</footer>
+</body></html>

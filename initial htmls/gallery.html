@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact | The Kinetic Scholar</title>
+<!-- Google Fonts: Manrope, Plus Jakarta Sans, Lexend -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;family=Lexend:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-surface": "#263046",
+              "on-tertiary-fixed": "#1a1c1a",
+              "tertiary-fixed-dim": "#c6c7c3",
+              "secondary": "#47607e",
+              "secondary-container": "#c2dcff",
+              "on-background": "#101b30",
+              "tertiary": "#000000",
+              "primary": "#000000",
+              "on-tertiary": "#ffffff",
+              "on-secondary": "#ffffff",
+              "on-error": "#ffffff",
+              "on-tertiary-fixed-variant": "#454745",
+              "on-secondary-container": "#48617e",
+              "on-primary-fixed": "#101b30",
+              "primary-fixed-dim": "#bbc6e2",
+              "on-surface": "#101b30",
+              "error-container": "#ffdad6",
+              "outline": "#74777d",
+              "on-primary": "#ffffff",
+              "inverse-on-surface": "#edf0ff",
+              "secondary-fixed": "#d1e4ff",
+              "primary-container": "#101b30",
+              "on-secondary-fixed-variant": "#2f4865",
+              "primary-fixed": "#d7e2ff",
+              "tertiary-fixed": "#e2e3df",
+              "on-primary-container": "#79849d",
+              "inverse-primary": "#bbc6e2",
+              "surface-container-highest": "#d7e2ff",
+              "tertiary-container": "#1a1c1a",
+              "surface-bright": "#f9f9ff",
+              "on-error-container": "#93000a",
+              "on-primary-fixed-variant": "#3c475d",
+              "background": "#f9f9ff",
+              "surface": "#f9f9ff",
+              "surface-container-high": "#e0e8ff",
+              "surface-container": "#e8edff",
+              "on-surface-variant": "#44474c",
+              "surface-tint": "#545e76",
+              "on-secondary-fixed": "#001d36",
+              "error": "#ba1a1a",
+              "secondary-fixed-dim": "#afc9ea",
+              "outline-variant": "#c4c6cc",
+              "on-tertiary-container": "#828481",
+              "surface-variant": "#d7e2ff",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f1f3ff",
+              "surface-dim": "#cfdaf6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Lexend"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .kinetic-border {
+            border-left: 4px solid #000000;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<span class="text-2xl font-black tracking-tighter text-slate-900 dark:text-slate-50 font-headline">The Kinetic Scholar</span>
+<!-- Desktop Navigation -->
+<div class="hidden md:flex items-center gap-8">
+<a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-500 dark:text-slate-400 hover:scale-105 hover:text-slate-900 dark:hover:text-white transition-all duration-300" href="#">Bio</a>
+<a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-500 dark:text-slate-400 hover:scale-105 hover:text-slate-900 dark:hover:text-white transition-all duration-300" href="#">Academic</a>
+<a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-500 dark:text-slate-400 hover:scale-105 hover:text-slate-900 dark:hover:text-white transition-all duration-300" href="#">Hockey</a>
+<a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-500 dark:text-slate-400 hover:scale-105 hover:text-slate-900 dark:hover:text-white transition-all duration-300" href="#">Gallery</a>
+<a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-900 dark:text-white border-b-2 border-slate-900 dark:border-white pb-1 transition-all duration-300" href="#">Contact</a>
+</div>
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2 font-headline font-bold text-sm uppercase tracking-widest hover:scale-102 transition-transform">
+                Get in Touch
+            </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+<!-- Hero Section: Intentional Asymmetry -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end mb-20">
+<div class="lg:col-span-8">
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter text-on-background leading-none">
+                    Get in <br/><span class="text-secondary italic">Touch</span>
+</h1>
+<p class="mt-8 text-xl text-on-primary-fixed-variant max-w-xl leading-relaxed">
+                    Bridging the gap between athletic peak performance and academic rigor. Reach out for collaborations, research inquiries, or scouting discussions.
+                </p>
+</div>
+<div class="lg:col-span-4 flex justify-end">
+<div class="relative w-full aspect-square bg-surface-container overflow-hidden rounded-lg group">
+<img alt="Kinetic Scholar" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of a vintage typewriter next to a worn ice hockey puck on a minimalist wooden desk with soft cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC72EVYqs4JVXAAnoILwlicDnanz69by9pNuKS1Y9sgWlrWjJKaaukWD3qyF5j5oRw7h_maqHk7s5SUUQSe10-_gSX5sRJd65e8Uaamm658a0FzJXwVb8jAZkQw5vuTjWb3evUpesjEI5WfGK5xK6JUZjAOfr_7Te6Esg7NtPSszk_VhR5aezniOkrQxKBQjBrZbCZURvocpaksOPM5eCO3bIAZoJlHR3j1FDeXjnSPnEnKhfLckrowVsGCSjE-ZhN9WK5zgDFS9aI"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<!-- Contact Form Section -->
+<section class="space-y-12">
+<div class="space-y-4">
+<span class="font-label text-xs font-bold tracking-[0.2em] text-secondary uppercase">Inquiry Portal</span>
+<h2 class="font-headline text-3xl font-bold">Send a Message</h2>
+</div>
+<form action="#" class="space-y-10">
+<div class="relative">
+<input class="peer block w-full border-0 border-b-2 border-outline-variant bg-transparent py-4 px-0 text-on-surface focus:border-secondary focus:ring-0 transition-colors" id="name" name="name" placeholder=" " type="text"/>
+<label class="absolute top-4 left-0 -z-10 origin-[0] -translate-y-8 scale-75 transform text-sm font-label uppercase tracking-widest text-on-surface-variant duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-8 peer-focus:scale-75 peer-focus:text-secondary" for="name">Full Name</label>
+</div>
+<div class="relative">
+<input class="peer block w-full border-0 border-b-2 border-outline-variant bg-transparent py-4 px-0 text-on-surface focus:border-secondary focus:ring-0 transition-colors" id="email" name="email" placeholder=" " type="email"/>
+<label class="absolute top-4 left-0 -z-10 origin-[0] -translate-y-8 scale-75 transform text-sm font-label uppercase tracking-widest text-on-surface-variant duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-8 peer-focus:scale-75 peer-focus:text-secondary" for="email">Email Address</label>
+</div>
+<div class="relative">
+<textarea class="peer block w-full border-0 border-b-2 border-outline-variant bg-transparent py-4 px-0 text-on-surface focus:border-secondary focus:ring-0 transition-colors resize-none" id="message" name="message" placeholder=" " rows="4"></textarea>
+<label class="absolute top-4 left-0 -z-10 origin-[0] -translate-y-8 scale-75 transform text-sm font-label uppercase tracking-widest text-on-surface-variant duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-8 peer-focus:scale-75 peer-focus:text-secondary" for="message">Your Message</label>
+</div>
+<button class="group flex items-center justify-between w-full md:w-auto md:min-w-[240px] bg-primary text-on-primary px-8 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:scale-102 transition-all duration-300 shadow-xl" type="submit">
+<span>Send Transmission</span>
+<span class="material-symbols-outlined ml-4 group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</form>
+</section>
+<!-- Connections & Info Section -->
+<section class="space-y-16">
+<!-- Info Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="bg-surface-container-low p-8 kinetic-border">
+<span class="font-label text-[10px] uppercase tracking-widest text-secondary block mb-4">Location</span>
+<p class="font-headline text-lg font-bold">Boston / Montreal</p>
+<p class="text-sm text-on-surface-variant mt-2 font-body">Available for global transit</p>
+</div>
+<div class="bg-surface-container-low p-8 kinetic-border">
+<span class="font-label text-[10px] uppercase tracking-widest text-secondary block mb-4">Email</span>
+<p class="font-headline text-lg font-bold">hello@kineticscholar.edu</p>
+<p class="text-sm text-on-surface-variant mt-2 font-body">Avg response: 4 hours</p>
+</div>
+</div>
+<!-- Professional Links -->
+<div class="space-y-8">
+<h3 class="font-headline text-xl font-bold border-b border-outline-variant pb-4">Professional Network</h3>
+<div class="grid grid-cols-1 gap-4">
+<a class="group flex items-center justify-between p-6 bg-surface-container-lowest hover:bg-surface-container-highest transition-colors duration-300" href="#">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary" data-icon="work">work</span>
+<div>
+<p class="font-headline font-bold text-on-background">LinkedIn</p>
+<p class="text-xs font-label uppercase text-on-surface-variant">Academic &amp; Professional History</p>
+</div>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity" data-icon="open_in_new">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-6 bg-surface-container-lowest hover:bg-surface-container-highest transition-colors duration-300" href="#">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary" data-icon="terminal">terminal</span>
+<div>
+<p class="font-headline font-bold text-on-background">GitHub</p>
+<p class="text-xs font-label uppercase text-on-surface-variant">Computational Research &amp; Code</p>
+</div>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity" data-icon="open_in_new">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-6 bg-surface-container-lowest hover:bg-surface-container-highest transition-colors duration-300" href="#">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary" data-icon="sports_hockey">sports_hockey</span>
+<div>
+<p class="font-headline font-bold text-on-background">Elite Prospects</p>
+<p class="text-xs font-label uppercase text-on-surface-variant">Athletic Stats &amp; Scouting Reports</p>
+</div>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity" data-icon="open_in_new">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- Decorative Layering -->
+<div class="relative bg-primary-container p-12 overflow-hidden">
+<div class="relative z-10">
+<h4 class="text-on-primary-container font-headline text-2xl font-bold italic leading-tight">
+                            "The mind is a muscle; <br/>keep it flexed."
+                        </h4>
+</div>
+<span class="absolute -right-4 -bottom-8 material-symbols-outlined text-white/5 text-9xl select-none" data-icon="fitness_center">fitness_center</span>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-20 bg-slate-100 dark:bg-slate-900 px-8 py-12">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto border-t border-slate-200/10 pt-8">
+<div class="flex flex-col items-center md:items-start mb-8 md:mb-0">
+<span class="font-['Manrope'] font-black text-xl text-slate-900 dark:text-slate-50">The Kinetic Scholar</span>
+<p class="font-['Plus_Jakarta_Sans'] text-xs font-medium tracking-wide text-slate-500 dark:text-slate-400 mt-2">© 2024 The Kinetic Scholar. Rigor &amp; Energy.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['Plus_Jakarta_Sans'] text-xs font-medium tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">Privacy</a>
+<a class="font-['Plus_Jakarta_Sans'] text-xs font-medium tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">Archive</a>
+<a class="font-['Plus_Jakarta_Sans'] text-xs font-medium tracking-wide text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">Network</a>
+</div>
+</div>
+</footer>
+</body></html>
