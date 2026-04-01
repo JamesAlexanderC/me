@@ -1,16 +1,15 @@
 /* --- Import Standard Stuff --- */
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 /* --- Import Pages --- */
-import Home from './pages/Home'
+import Home from './home'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <Router>
-      <Route path="/"> <Home /> </Route>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </Router>
   )
 }
