@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 /* --- Import Pages --- */
 import Home from './pages/home'
+import Professional from './pages/professional'
+import Sporting from './pages/sporting'
+import Contact from './pages/contact'
 
 /* --- Import Components --- */
 import Navbar from './components/navbar'
@@ -19,11 +22,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="/professional" element={<div><h1>Professional Page</h1></div>} />
+          <Route path="/professional" element={<Professional />} />
 
-          <Route path="/sporting" element={<div><h1>Sporting Page</h1></div>} />
+          <Route path="/sporting" element={<Sporting />} />
 
-          <Route path="/contact" element={<div><h1>Contact Page</h1></div>} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         <Footer />
