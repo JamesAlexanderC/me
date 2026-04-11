@@ -4,6 +4,8 @@
     flex-direction: column;
     margin-left: 15rem;
     margin-right: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem
 }
 
 /* Consistent styles for each info div */
@@ -14,10 +16,10 @@
     color: var(--colour2);
     text-align: center;
 
-    border: 1rem solid var(--colour3);
+    /* border: 0.5rem solid var(--colour3); */
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 /* Intro styles */
@@ -37,5 +39,25 @@
 }
 
 #personalImage {
+    width: 40rem;
+}
+
+/* Professional Styles */
+#professionalText {
+    width: 40rem;
+    padding-top: 12rem;
+}
+
+#professionalImage {
+    width: 40rem;
+}
+
+/* Sporting Styles */
+#sportingText {
+    width: 40rem;
+    padding-top: 12rem;
+}
+
+#sportingImage {
     width: 40rem;
 }

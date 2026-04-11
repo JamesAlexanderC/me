@@ -30,9 +30,9 @@ function Home() {
 
             <div className = "infoBox" id = "professional">
 
-                <img id="personalImage" src="/me.jpeg" alt="James Clarke" />
+                <img id="professionalImage" src="/me.jpeg" alt="James Clarke" />
                 
-                <div id = "prefessionalText">
+                <div id = "professionalText">
                 
                     <p>Student software engineer, experience in full stack website design, data automations and cybersecurity</p>
             
@@ -46,16 +46,20 @@ function Home() {
 
             </div>
 
-            <div className = "infoBox" id = "athletic">
+            <div className = "infoBox" id = "sporting">
             
-                <h2>Athletic</h2>
-                
-                <p>Playing Hockey for most of my life, at clubs including York, Leeds, and EUMHC</p>
-                
-                <p>Feature photos</p>
+                <div id = "sportingText">
 
-                <p>Feature most recent strava run</p>
+                    <p>Playing Hockey for most of my life, at clubs including York, Leeds, and EUMHC</p>
+                    
+                    <p>Feature photos</p>
+
+                    <p>Feature most recent strava run</p>
             
+                </div>
+
+                <img id="sportingImage" src="/me.jpeg" alt="James Clarke" />
+
             </div>
 
         </div>
