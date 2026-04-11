@@ -1,0 +1,41 @@
+/* Styling the page */
+.home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/* Consistent styles for each info div */
+.infoBox {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    color: var(--colour2);
+    text-align: center;
+
+    border: 1rem solid var(--colour3);
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Intro styles */
+#introImage {
+    width: 40rem;
+}
+
+#introText {
+    width: 40rem;
+    padding-top: 12rem;
+}
+
+/* Personal Styles */
+#personalText {
+    width: 40rem;
+    padding-top: 12rem;
+}
+
+#personalImage {
+    width: 40rem;
+}

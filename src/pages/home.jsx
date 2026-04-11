@@ -1,17 +1,63 @@
-/* --- Home Page --- */
+import "./home.css"
 
 function Home() {
     return (
-        <div className="home">
+        <div className = "home">
+            <div className = "infoBox" id = "intro">
+                
+                <img id="introImage" src="/me.jpeg" alt="James Clarke" />
+                
+                <div id="introText">
+                    <h1 className = "text">James Clarke</h1>
+                    <p className = "text">I am 19, a software engineer, and an athlete</p>
+                </div>
 
-            <h1>Welcome to my personal website!</h1>
-            <p>This is the home page. Feel free to explore and learn more about me.</p>
-
-            <div>
-                <h1>Hero Element</h1>
             </div>
 
+            <div className = "infoBox" id = "personal">
+                
+                <div id = "personalText">
+                    <p>I am in my second year at the University of Exeter</p>
+                        
+                    <p>I am found on instagram, linkedin, github, facebook, and strava</p>
+
+                    <p>Feature most recent Instagram post from each account</p>
+                </div>
+                
+                <img id="personalImage" src="/me.jpeg" alt="James Clarke" />
+
+            </div>
+
+            <div className = "infoBox" id = "professional">
+
+                <img id="personalImage" src="/me.jpeg" alt="James Clarke" />
+                
+                <div id = "prefessionalText">
+                
+                    <p>Student software engineer, experience in full stack website design, data automations and cybersecurity</p>
             
+                    <p>I am currently looking for a year long placement starting between July and August, and welcome any opportunities here</p>
+
+                    <p>Feature recent github stats</p>
+
+                    <p>Feature 'project spotlight'</p>
+
+                </div>
+
+            </div>
+
+            <div className = "infoBox" id = "athletic">
+            
+                <h2>Athletic</h2>
+                
+                <p>Playing Hockey for most of my life, at clubs including York, Leeds, and EUMHC</p>
+                
+                <p>Feature photos</p>
+
+                <p>Feature most recent strava run</p>
+            
+            </div>
+
         </div>
     )
 }
