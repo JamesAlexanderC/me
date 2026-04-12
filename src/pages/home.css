@@ -1,63 +1,81 @@
 /* Styling the page */
 .home {
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    padding-left: clamp(1rem, 5vw, 6rem);
+    padding-right: clamp(1rem, 5vw, 6rem);
     padding-top: 5rem;
-    padding-bottom: 5rem
+    padding-bottom: 5rem;
 }
 
 /* Consistent styles for each info div */
 .infoBox {
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem 0;
     color: var(--colour2);
     text-align: center;
-
-    /* border: 0.5rem solid var(--colour3); */
-
     margin-top: 10rem;
     margin-bottom: 10rem;
+
+    /* border: 0.5rem solid var(--colour3); */
 }
 
 /* Intro styles */
 #introImage {
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
 }
 
 #introText {
-    width: 40rem;
-    padding-top: 12rem;
+    width: 100%;
+    max-width: 40rem;
+    padding-top: 0;
 }
 
 /* Personal Styles */
 #personalText {
-    width: 40rem;
-    padding-top: 12rem;
+    width: 100%;
+    max-width: 40rem;
+    padding-top: 0;
 }
 
 #personalImage {
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
 }
 
 /* Professional Styles */
 #professionalText {
-    width: 40rem;
-    padding-top: 12rem;
+    width: 100%;
+    max-width: 40rem;
+    padding-top: 0;
 }
 
 #professionalImage {
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* Sporting Styles */
 #sportingText {
-    width: 40rem;
-    padding-top: 12rem;
+    width: 100%;
+    max-width: 40rem;
+    padding-top: 0;
 }
 
 #sportingImage {
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
 }

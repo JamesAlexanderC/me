@@ -1,4 +1,6 @@
 import "./home.css"
+import { TypewriterText } from "../components/effects";
+
 
 function Home() {
     return (
@@ -9,7 +11,7 @@ function Home() {
                 
                 <div id="introText">
                     <h1 className = "text">James Clarke</h1>
-                    <p className = "text">I am 19, a software engineer, and an athlete</p>
+                    <TypewriterText text = {"I am 19, a software engineer, and an athlete"} loop = {false} className = "text" speed = {50}/>
                 </div>
 
             </div>
@@ -17,7 +19,7 @@ function Home() {
             <div className = "infoBox" id = "personal">
                 
                 <div id = "personalText">
-                    <p>I am in my second year at the University of Exeter</p>
+                    <TypewriterText text = {"I am in my second year at the University of Exeter"} loop = {false} className = "text" speed = {50}/>
                         
                     <p>I am found on instagram, linkedin, github, facebook, and strava</p>
 
@@ -30,7 +32,7 @@ function Home() {
 
             <div className = "infoBox" id = "professional">
 
-                <img id="professionalImage" src="/me.jpeg" alt="James Clarke" />
+                <img id="professionalImage" src="/profile.jpg" alt="James Clarke" />
                 
                 <div id = "professionalText">
                 
