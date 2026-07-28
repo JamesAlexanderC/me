@@ -4,8 +4,23 @@
     gap: 2rem;
     list-style: none;
     padding: 0 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: aqua;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 #push-right {
     margin-left: auto;
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
 }
