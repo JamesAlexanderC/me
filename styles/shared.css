@@ -18,9 +18,3 @@ body {
 #push-right {
     margin-left: auto;
 }
-
-#title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%)
-}
