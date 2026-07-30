@@ -10,7 +10,7 @@ My personal website and portfolio
 - projects page (more in depth view of all my projects, complete with links, and videos)
 - hockey page (probably a glorified gallery of photos)
 - contact page (links will be everywhere but this will have my instagram, github, linkedin and email that will turn into a proper contact form when I can build a backend for this)
-- very maybe a blog sort of page, don't know if I would be able to consistently support that though
+- very maybe a blog sort of page, don't know if I would be able to consistently support that thoug
 
 
 
