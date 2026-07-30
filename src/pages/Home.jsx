@@ -60,10 +60,6 @@ export default function Home() {
 
                     </div>
 
-                    <footer>
-                        <p>&copy; 2026 James Clarke. All rights reserved.</p>
-                    </footer>
-
                 </div>
 
         </>
