@@ -1,7 +1,7 @@
 export default function() {
     return(
         <>
-            <p>Personal</p>
+            <p>Now</p>
         </>
     )
 }
