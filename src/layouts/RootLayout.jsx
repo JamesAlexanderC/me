@@ -19,8 +19,8 @@ export default function RootLayout() {
 
       <footer>
         <ul id="footer">
-          <li><a href="https://github.com/JamesAlexanderC"><img src="src/assets/github.svg" id="github-svg" /></a></li>
-          <li><a href="https://www.linkedin.com/in/james-clarke-a3376931b"><img src="src/assets/linkedin.svg" id="linkedin-svg" /></a></li>
+          <li><a href="https://github.com/JamesAlexanderC"><img src="github.svg" id="github-svg" /></a></li>
+          <li><a href="https://www.linkedin.com/in/james-clarke-a3376931b"><img src="linkedin.svg" id="linkedin-svg" /></a></li>
         </ul>
 
         <p>&copy; 2026 James Clarke. All rights reserved.</p>
