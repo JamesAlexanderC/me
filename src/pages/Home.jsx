@@ -7,7 +7,7 @@ export default function Home() {
 
                 <div id="intro">
 
-                    <img id="hero" src="hero-img.jpeg"/>
+                    <img id="hero" src="hero-img.jpeg" />
 
                     <h1 id="title">James Clarke</h1>
 
