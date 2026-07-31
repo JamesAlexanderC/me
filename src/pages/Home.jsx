@@ -57,7 +57,7 @@ export default function Home() {
                     </p>
 
                     <p className="block">
-                        I am (or will soon be) pursuing a project relating my work with embedded systems and 
+                        I will soon be pursuing a project relating my work with embedded systems and 
                         ML algorithms to my experience with the role of data in hockey
                     </p>
 
