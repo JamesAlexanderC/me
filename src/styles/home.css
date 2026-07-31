@@ -1,15 +1,53 @@
-#main {
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#title {
-    color: blue;
+#intro {
+    width: 100vw;
+    height: auto;
+    background-color: white;
 }
 
-.intro {
-    display: flex;
-    flex-direction: row;
-    color: red;
+#hero{
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    background-color: white;
+    color: navy;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#intro-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+    background-color: white;
+    color: navy;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.block {
+    background-color: navy;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 20rem;
+}
+
+.block:hover {
+    box-shadow: 2rem;
+    background-color: blue;
+    cursor: pointer;
 }

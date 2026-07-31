@@ -15,8 +15,9 @@ export default function RootLayout() {
 
       <div id="main">
         <Outlet />
-        <footer><p>&copy; 2026 James Clarke. All rights reserved.</p></footer>
       </div>
+
+      <footer><p>&copy; 2026 James Clarke. All rights reserved.</p></footer>
     </>
   )
 }
