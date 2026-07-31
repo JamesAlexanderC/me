@@ -20,14 +20,14 @@
     flex-direction: row;
     gap: 2rem;
     list-style: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     color: white;
     margin: 0;
+    padding: 0;
+    padding-top: 1rem;
 }
 
 #footer > li > a {
-    color: white;
+    color: navy;
 }
 
 body {
@@ -44,6 +44,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: navy;
-    color: white;
+    background-color: white;
+    color: navy;
+}
+
+#github-svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+#linkedin-svg {
+    width: 2rem;
+    height: 2rem;
 }
