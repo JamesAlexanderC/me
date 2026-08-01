@@ -33,12 +33,11 @@ export default function() {
                     </p>
                     <p className="text">
                         The bot uses an async engine that recieves messages from a queue to create and
-                        control<a href="https://github.com/daijro/camoufox"> Camoufox </a> browser instances.
-                        This includes a 'scan-loop' which runs on a configurable timer to find the requested ticket,
-                        and multiple reservation flows, which trigger on the finding of a requested ticket and run 
-                        async to each other to allow for pseduo-parrallel runs. This engine is exposed through a 
-                        dedicated <a href="https://fastapi.tiangolo.com/"> FastAPI </a> API served on 
-                        <a href="https://gunicorn.org/"> Gunicorn </a>, requests can be made to the API to add messages 
+                        control camoufox wrapped playwright browser instances. This includes a 'scan-loop' 
+                        which runs on a configurable timer to find the requested ticket, and multiple reservation 
+                        flows, which trigger on the finding of a requested ticket and run async to each other 
+                        to allow for pseduo-parrallel runs. This engine is exposed through a 
+                        dedicated FastAPI API served on gunicorn, requests can be made to the API to add messages 
                         to the queue or to edit configuration details. A very simple graphical interface is served.
                     </p>
                 </div>
