@@ -59,12 +59,7 @@ footer {
     color: var(--accent);
 }
 
-#github-svg {
-    width: 2rem;
-    height: 2rem;
-}
-
-#linkedin-svg {
+.svg {
     width: 2rem;
     height: 2rem;
 }

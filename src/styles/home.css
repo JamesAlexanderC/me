@@ -5,8 +5,8 @@ body {
 }
 
 #home {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -40,24 +40,6 @@ body {
 #intro-img {
     height: 25rem;
     width: 25rem;
-}
-
-#rows {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#row1 {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-#row2 {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
 }
 
 .text {
