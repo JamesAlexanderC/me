@@ -1,5 +1,12 @@
-#now {
-    margin: 5rem; 
+#projects {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+#projects > #intro-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +19,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 5rem;
 }
 
 h2 {
@@ -64,7 +72,15 @@ a {
     text-decoration: none;
 }
 
-#fixr-img {
+.project-img {
     border-radius: 1rem;
     width: 30vw;
+}
+
+.description {
+    width: 40vw;
+}
+
+.description > .text {
+    width: fit-content
 }
