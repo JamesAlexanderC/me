@@ -9,49 +9,29 @@ export default function Home() {
                     <div id="intro-text">
                         <h1>Hi!, I'm James Clarke</h1>
                         <p>
-                            Software Engineer, Student and Athlete.
+                            Student, Software Engineer, and Athlete.
                         </p>
                     </div>
                     <img id="intro-img" src="favicon.png" />
                 </div>
-                <div id="rows">
-                    <div id="row1">
-                        <p className="block">
-                            I am student at the University of Exeter studying BSc Computer Science with
-                            Industrial Experience.
-
-                            I am a student software engineer at Amulet Hotkey helping to develop embedded 
-                            systems and automated tooling.
-                        </p>
-                        <p className="block">
-                            Average grade pp 64% having completed key modules: Machine Learning, C Family, 
-                            Object Oriented Programming and Web Development.
-
-                            I am an active member of both Exeter CS Society and Exeter Cybersecurity Society,
-                            having attended Cyberus summer school as a representative for the University.
-                        </p>
-                        <p className="block">
-                            I have a strong portfolio of personal projects and hackathon entries; built from 
-                            a passion for creating amongst a number of dsciplines including AI, cybersecurity,
-                            embedded systems and blockchain technologies.
-                        </p>
-                    </div>
-                    <div id="row2">
-                        <p className="block">
-                            Over the last 2 years I have played for EUMHC, having been lucky enough to win a BUCS
-                            championship with the second team and (sort of) win promotion to the national prem 
-                            with the first team.
-                        </p>
-                        <p className="block">
-                            Hockey has been one of the most formative experiences of my life, and much of my 
-                            professional mentality has been derived from lessons first taught on the pitch.
-                        </p>
-                        <p className="block">
-                            I will soon be pursuing a project relating my work with embedded systems and 
-                            ML algorithms to my experience with the role of data in hockey
-                        </p>
-                    </div>
-                </div>
+                <p className="text">
+                    Studying Bsc Computer Science with a year in industry at the University of Exeter, 
+                    Where I am an active member in the Computer Science Society and Cybersecurity Society,
+                    having represented Exeter at international events.
+                </p>
+                <p className="text">
+                    Working as a Student Software Engineer at Amulet Hotkey as my year in industry, 
+                    where I work hands on with embedded systems and automated business processes.
+                </p>
+                <p className="text">
+                    Playing hockey at the EUMHC for both the men's first and second team over
+                    the last two years, winning BUCS gold and promotion to the top flight of english hockey.
+                </p>
+                <p className="text">
+                    Here you can find out what I'm working on now, view my professional experience and look at 
+                    my projects and past releases. I also keep a gallery here of some of my favourite on pitch 
+                    moments, enjoy!
+                </p>
         </div>
 )
 }
