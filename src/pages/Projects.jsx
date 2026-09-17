@@ -4,7 +4,7 @@ export default function() {
     return(
         <div id="projects">
             <div id="intro-text">
-                <h1>My Projects!</h1>
+                <h1>My Projects</h1>
                 <p>
                     A collection of projects I am or have worked on
                 </p>

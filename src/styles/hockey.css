@@ -1,0 +1,38 @@
+#hockey {
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+
+#hockey > #intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 0;
+
+}
+
+#hockey-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 70rem;
+}
+
+.gallery-picture {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--accent2);
+}
