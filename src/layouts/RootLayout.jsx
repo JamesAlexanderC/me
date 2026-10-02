@@ -8,7 +8,6 @@ export default function RootLayout() {
           <li><NavLink to="/" end>Home</NavLink></li>
           <li><NavLink to="/projects">Projects</NavLink></li>
           <li><NavLink to="/professional">Professional</NavLink></li>
-          <li><NavLink to="/hockey">Hockey</NavLink></li>
           <li id="push-right"><a href="/James-Clarke-CV.pdf">CV</a></li>
         </ul>
       </nav>
