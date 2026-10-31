@@ -66,3 +66,17 @@ footer {
     width: 2rem;
     height: 2rem;
 }
+
+/* Replace the browser's blue tap flash and focus ring with the site's colours */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 3px solid var(--accent2);
+    outline-offset: 2px;
+}
