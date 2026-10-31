@@ -2,6 +2,9 @@ body {
     font-family: 'Google Sans Flex';
 }
 
+h1 {
+    color: var(--accent);
+}
 
 #navbar {
     display: flex;

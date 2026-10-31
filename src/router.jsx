@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import Professional from './pages/Professional.jsx'
 import Hockey from './pages/Hockey.jsx'
+import BusinessCard from './pages/BusinessCard.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export const router = createHashRouter([
@@ -17,5 +18,10 @@ export const router = createHashRouter([
       { path: 'professional', element: <Professional /> },
       { path: 'hockey', element: <Hockey /> },
     ],
+  },
+  {
+    path: '/BusinessCard',
+    element: <BusinessCard />,
+    errorElement: <NotFound />,
   },
 ])
